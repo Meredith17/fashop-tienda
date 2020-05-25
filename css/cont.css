@@ -1,0 +1,45 @@
+#cont {
+	background: #FFD5D5;
+	color: #000;
+	text-align: center;
+	padding: 20px
+}
+
+#cont h4{
+	color: #000; 
+	line-height: 5px;
+}
+
+#cont h2{
+	color: #424242;
+}
+
+#cont .contenedor {
+	display: flex;
+	flex-wrap: wrap; 
+	justify-content: center;
+}
+
+.cont-ropa {
+	margin: 20px;
+}
+
+.cont-ropa img {
+	width: 250px;
+	height: 250px;
+	border-radius: 30%;
+	border: 7px solid #fff;
+}
+
+
+@media (min-width: 480px) {
+	.cont-ropa {
+		width: 40%;
+	}
+}
+
+@media (min-width: 1024px) {
+	.cont-ropa {
+		width: auto;
+	}
+}

@@ -1,0 +1,105 @@
+#tips {
+	background: #DADADA;
+	color: #000;
+	text-align: center;
+	padding: 30px
+}
+
+#tips h4{
+	color: #000; 
+	line-height : 2px;
+}
+
+#tips h2{
+	color: #000; 
+	line-height : 2px;
+
+}
+
+#tips .contenedor {
+	display: flex;
+	flex-wrap: wrap; 
+	justify-content: center;
+}
+
+.tips-ropa {
+	margin: 20px;
+}
+
+.tips-ropa img {
+	width: 200px;
+	height: 250px;
+	border-radius: 10%;
+	border: 10px solid #fff;
+}
+
+.tips-ropamax {
+	margin: 20px;
+}
+
+.tips-ropamax img {
+	width: 450px;
+	height: 500px;
+	border-radius: 10%;
+	border: 10px solid #fff;
+
+#tips {
+	background: #DADADA;
+	color: #000;
+	text-align: center;
+}
+
+#ga {
+	background: #DADADA;
+	color:#000;
+	text-align: center;
+}
+
+#ga .contenedor {
+	display: flex;
+	flex-wrap: wrap; 
+	justify-content: center;
+}
+
+.tips-ropa {
+	margin: 20px;
+}
+
+.tips-ropa img {
+	width: 200px;
+	height: 250px;
+}
+
+#ga {
+	background: #DADADA;
+	color: #000;
+	text-align: center;
+}
+
+#ga .contenedor {
+	display: flex;
+	flex-wrap: wrap; 
+	justify-content: center;
+}
+
+.tips-ropa {
+	margin: 20px;
+}
+
+.tips-ropa img {
+	width: 200px;
+	height: 250px;
+	
+}
+
+@media (min-width: 480px) {
+	.tips-ropa {
+		width: 1000%;
+	}
+}
+
+@media (min-width: 1024px) {
+	.tips-ropa {
+		width: auto;
+	}
+}

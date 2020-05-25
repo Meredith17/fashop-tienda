@@ -1,0 +1,107 @@
+#info {
+	background: #333;
+	color: #fff;
+	text-align: center;
+	padding: 20px
+}
+
+#info h4{
+	color: #fff; 
+}
+
+#info .contenedor {
+	display: flex;
+	flex-wrap: wrap; 
+	justify-content: center;
+}
+
+.info-ropa {
+	margin: 20px;
+}
+
+.info-ropa img {
+	width: 180px;
+	height: 180px;
+	border-radius: 50%;
+	border: 7px solid #fff;
+}
+
+#info {
+	background: #333;
+	color: #fff;
+	text-align: center;
+}
+
+#info .contenedor {
+	display: flex;
+	flex-wrap: wrap; 
+	justify-content: center;
+}
+
+.info-ropa {
+	margin: 20px;
+}
+
+.info-ropa img {
+	width: 180px;
+	height: 180px;
+	border-radius: 50%;
+	border: 7px solid #fff;
+}
+
+
+
+#ga {
+	background: #333;
+	color: #fff;
+	text-align: center;
+}
+
+#ga .contenedor {
+	display: flex;
+	flex-wrap: wrap; 
+	justify-content: center;
+}
+
+.info-ropa {
+	margin: 20px;
+}
+
+.info-ropa img {
+	width: 180px;
+	height: 180px;
+}
+
+#ga {
+	background: #fff;
+	color: #333;
+	text-align: center;
+}
+
+#ga .contenedor {
+	display: flex;
+	flex-wrap: wrap; 
+	justify-content: center;
+}
+
+.info-ropa {
+	margin: 20px;
+}
+
+.info-ropa img {
+	width: 180px;
+	height: 180px;
+	
+}
+
+@media (min-width: 480px) {
+	.info-ropa {
+		width: 40%;
+	}
+}
+
+@media (min-width: 1024px) {
+	.info-ropa {
+		width: auto;
+	}
+}
